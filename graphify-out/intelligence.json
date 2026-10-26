@@ -1,0 +1,36 @@
+{
+  "hotspots": [
+    {
+      "label": "useIDEStore",
+      "risk": 0.62,
+      "type": "STATE_STORE"
+    },
+    {
+      "label": "handleKeyDown()",
+      "risk": 0.372,
+      "type": "FUNCTION"
+    },
+    {
+      "label": "timeAgo()",
+      "risk": 0.245,
+      "type": "FUNCTION"
+    },
+    {
+      "label": "AIAssistant.tsx",
+      "risk": 0.223,
+      "type": "FUNCTION"
+    },
+    {
+      "label": "TerminalPanel.tsx",
+      "risk": 0.223,
+      "type": "FUNCTION"
+    }
+  ],
+  "blast_radius": {
+    "Icon": 3,
+    "[search, setSearch]": 2,
+    "filtered": 2,
+    "ICON_MAP": 2,
+    "eslintConfig": 1
+  }
+}
